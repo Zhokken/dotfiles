@@ -2,7 +2,7 @@
 
 -- Change these if you use different applications.
 local terminal = "kitty"
-local file_manager = "thunar"
+local file_manager = "nemo"
 local mod = "SUPER + "
 
 -- Monitor
@@ -57,11 +57,12 @@ hl.config({
         gaps_out = 10,
         border_size = 2,
         layout = "dwindle",
+
         col = {
             active_border = "rgb(268bd2)",
             inactive_border = "rgb(1a1a1a)",
         },
-    },
+            },
     decoration = {
         rounding = 5,
         active_opacity = 1.0,

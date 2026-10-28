@@ -1,18 +1,18 @@
-@define-color fg rgba(255, 255, 255, 1);
-@define-color fg_alt rgba(255, 255, 255, 1);
-@define-color fg_soft rgba(255, 255, 255, 0.6);
+@define-color fg rgba(205, 214, 244, 1);          /* Text / Mocha Text (#cdd6f4) */
+@define-color fg_alt rgba(245, 224, 220, 1);      /* Text Alt / Mocha Rosewater (#f5e0dc) */
+@define-color fg_soft rgba(166, 173, 200, 0.6);   /* Text Soft / Mocha Subtext0 (#a6adc8) */
 
-@define-color bg rgba(115, 121, 148, 0.8);
-@define-color bg_alt transparent;
-@define-color bg_soft rgba(14, 25, 51, 0.6);
+@define-color bg rgba(30, 30, 46, 0.8);          /* BG / Mocha Base (#1e1e2e) */
+@define-color bg_alt transparent;                  /* BG Alt / Transparent */
+@define-color bg_soft rgba(17, 17, 27, 0.6);      /* BG Soft / Mocha Crust (#11111b) */
 
-@define-color tooltip_bg rgb(0, 8, 28);
-@define-color hover rgba(255, 255, 255, 0.1);
+@define-color tooltip_bg rgb(24, 24, 37);         /* Tooltip / Mocha Mantle (#181825) */
+@define-color hover rgba(255, 255, 255, 0.1);     /* Hover Overlay */
 
-@define-color workspace_inactive rgba(255, 255, 255, 0.4);
-@define-color workspace_active rgba(0, 8, 28, 0.4);
-@define-color workspace_hover rgba(255, 255, 255, 0.1);
+@define-color workspace_inactive rgba(108, 112, 134, 0.4); /* Inactive / Mocha Overlay0 (#6c7086) */
+@define-color workspace_active rgba(49, 50, 68, 0.4);      /* Active / Mocha Surface0 (#313244) */
+@define-color workspace_hover rgba(255, 255, 255, 0.1);    /* Hover Overlay */
 
-@define-color urgent rgba(0, 153, 255, 1);
-@define-color active rgba(88, 157, 246, 1);
-@define-color good rgba(64, 239, 169, 1);
+@define-color urgent rgba(243, 139, 168, 1);      /* Urgent / Mocha Red (#f38ba8) */
+@define-color active rgba(137, 180, 250, 1);      /* Active Accent / Mocha Blue (#89b4fa) */
+@define-color good rgba(166, 227, 161, 1);        /* Good / Mocha Green (#a6e3a1) */
