@@ -1,0 +1,9 @@
+configuration {
+    terminal: "kitty";
+    modes: [ combi ];
+    combi-modes: [ window, run, ssh ];
+}
+
+//@theme "squared-nord"
+@theme "/home/zhokken/.config/rofi/themes/squared-nord.rasi"
+
